@@ -1,0 +1,15 @@
+* Timer App Notes
+** Component Heirarchy
+*** TimersDashboard
+- State
+  - Timer Data: The list of timers and properties of each timer
+**** EditableTimerList
+***** EditableTimer
+- State
+  - Is the edit form open
+****** Timer
+****** TimerForm
+**** ToggleableTimerForm
+- State
+  - Form Visibility
+***** TimerForm
